@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Walter\Documents\GitHub\KosmoVolts\KosmoVoltsMain\KosmoVoltsMain.kicad_sch</source>
+    <date>6/18/2022 9:27:22 AM</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>KosmoVoltsMain.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af40b6da-1c42-4ccb-a147-e1d1e594c90c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69582024-d92c-4de9-bbc9-8000c9b6c72d</tstamps>
+    </comp>
+    <comp ref="GATES1">
+      <value>MA08-2</value>
+      <footprint>Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cdc27ab-85a6-45f8-8c10-311802f8e75e</tstamps>
+    </comp>
+    <comp ref="GATES2">
+      <value>MA08-2</value>
+      <footprint>Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>feacc859-f3da-4875-aa2c-1a7e8f8b7898</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>OUT</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-1121"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b417f56a-4d42-4430-94d1-45cfaf7f4de2</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>2_pin_Molex_connector</value>
+      <fields>
+        <field name="SKU">A-826</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="2_pin_Molex_connector" description="KK254 Molex connector"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-826"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da59eb75-b41c-45f7-bada-f0350a35de85</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>OUT</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="SKU">A-804</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="2_pin_Molex_header" description="KK254 Molex header"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cee9fa4-6c97-4397-bfba-cb37c31b18ae</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2a00817-9b41-4da5-87de-61cc13b0fe9f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3dba9b2-1380-4362-af21-3798fffdcf8f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f62175ec-f038-41f9-a174-a50a45ad0e1e</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aaa71420-704e-4668-bc9e-73df46cd1e27</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0076dab-335e-463a-a077-0970c2ee9b89</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>823036c0-1755-4966-9e38-f995a1206f45</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6e440c8-5ade-4dc5-8046-71cbfcba5136</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14df73f8-6eb4-4607-81b7-3c855ec127e9</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dbc7e93-697c-4cde-a388-fdbfef732fd5</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>B50K</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffa3fc6e-40c9-4ae4-b23e-89a638cee07e</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>B50K</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae6cf909-288b-44d2-8f34-b1a835b3c295</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>B50K</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>671695cc-5aa1-4a45-89df-eba7a572dba5</tstamps>
+    </comp>
+    <comp ref="RV4">
+      <value>B50K</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e163d8e-8350-4963-9078-bcb6aba7a30d</tstamps>
+    </comp>
+    <comp ref="RV5">
+      <value>B50K</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4c82f42-f649-4f66-8650-4da45b0b4f2f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TL072</value>
+      <footprint>ao_tht:DIP-8_W7.62mm_Socket_LongPads</footprint>
+      <fields>
+        <field name="SKU">A-037</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="TL072" description="Dual operational amplifier, DIP-8"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-037"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KosmoVoltsMain.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf3d3320-9866-47a0-bafd-a6779fa3eb1c e4b13ea9-b7f9-4528-ad74-ee276383d18b 62be3e16-b64c-44ad-b34a-2a3b1fef4464</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Odd_Even">
+      <description>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="2_pin_Molex_connector">
+      <description>KK254 Molex connector</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">2_pin_Molex_connector</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-826</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="2_pin_Molex_header">
+      <description>KK254 Molex header</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">2_pin_Molex_header</field>
+        <field name="Footprint">ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-804</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="AudioJack2">
+      <description>Audio Jack, 2 Poles (Mono / TS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2</field>
+        <field name="Footprint">ao_tht:Jack_6.35mm_PJ_629HAN</field>
+        <field name="Datasheet">~</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-1121</field>
+      </fields>
+      <pins>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint">ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint">ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+        <field name="Datasheet">~</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="TL072">
+      <description>Dual operational amplifier, DIP-8</description>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL072</field>
+        <field name="Footprint">ao_tht:DIP-8_W7.62mm_Socket_LongPads</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-037</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="ao_symbols">
+      <uri>C:/Users/Walter/Documents/projects/Kosmo/aoKicad-1.1/ao_symbols.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+12V">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="GATES1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="GATES1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="GATES2" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="GATES2" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="2" name="/-12V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="GATES1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="GATES1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="GATES2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="GATES2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="3" name="/BUFFCLK2">
+      <node ref="GATES1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="GATES1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="GATES2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="GATES2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="4" name="/GATE1">
+      <node ref="GATES1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="GATES2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="RV5" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="5" name="/GATE2">
+      <node ref="GATES1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="GATES2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RV4" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="6" name="/GATE3">
+      <node ref="GATES1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="GATES2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="7" name="/GATE4">
+      <node ref="GATES1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="GATES2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="8" name="/GATE5">
+      <node ref="GATES1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="GATES2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="9" name="/GATE6">
+      <node ref="GATES1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="GATES2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="10" name="/GATE7">
+      <node ref="GATES1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="GATES2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="11" name="/GATE8">
+      <node ref="GATES1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="GATES2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="GATES1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="GATES1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="GATES2" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="GATES2" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J1" pin="S" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(J1-PadT)">
+      <node ref="J1" pin="T" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="RV5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="22" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+  </nets>
+</export>

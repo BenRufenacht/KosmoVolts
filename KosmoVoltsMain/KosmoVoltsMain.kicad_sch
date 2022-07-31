@@ -1286,7 +1286,7 @@
     (property "Value" "100n" (id 1) (at 80.01 179.0699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" (id 2) (at 77.1652 181.61 0)
+    (property "Footprint" "ao_tht:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (id 2) (at 77.1652 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 76.2 177.8 0)
@@ -1449,7 +1449,7 @@
     (property "Value" "100n" (id 1) (at 80.01 147.3199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" (id 2) (at 77.1652 149.86 0)
+    (property "Footprint" "ao_tht:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (id 2) (at 77.1652 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 76.2 146.05 0)
@@ -1811,10 +1811,10 @@
       (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
     (path "/af40b6da-1c42-4ccb-a147-e1d1e594c90c"
-      (reference "C1") (unit 1) (value "100n") (footprint "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm")
+      (reference "C1") (unit 1) (value "100n") (footprint "ao_tht:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/69582024-d92c-4de9-bbc9-8000c9b6c72d"
-      (reference "C2") (unit 1) (value "100n") (footprint "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm")
+      (reference "C2") (unit 1) (value "100n") (footprint "ao_tht:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/1cdc27ab-85a6-45f8-8c10-311802f8e75e"
       (reference "GATES1") (unit 1) (value "MA08-2") (footprint "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical")
